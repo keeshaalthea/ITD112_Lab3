@@ -1,0 +1,87 @@
+/* Import the fonts */
+@import url("@fontsource/poppins/index.css");
+@import url("@fontsource/syncopate/index.css");
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(40, 40, 40, 0.1);
+  z-index: 1;
+}
+
+.navbar-logo {
+    width: 185px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+.navbar-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon :hover{
+  background-color: #5e7ff4;
+  border-radius: 50%;
+}
+
+.icon-image {
+  width: 30px; /* Adjust size as needed */
+  height: 30px;
+}
+
+/* Layout styles */
+.content {
+  display: flex;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 18%;
+  padding: 1rem;
+  font-family: 'Syncopate', sans-serif;
+  border-right: 1px solid #d1d1d1;
+  font-size: 24px;
+  text-align:center;
+  padding-left: 25px;
+  background-color: #fefdfd;
+}
+
+
+.sidebar p{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 15px;
+    text-align:justify;
+    padding-left: 28px;
+    padding-right: 0px;
+    padding-top: 2px;
+}
+
+/* Main content styles */
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #fefdfd;
+  padding-top: 2px;
+}
+
